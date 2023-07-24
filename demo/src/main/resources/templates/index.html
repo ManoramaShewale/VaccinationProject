@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org" >
+<head>
+  <title>Vaccination Booking Form</title>
+  <link rel="stylesheet" href="../static/CSS/style.css" th:href="@{/css/style.css}"/>
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Vaccination Booking Form</h1>
+    <form action="tabledata" method="post" th:action="tabledata">
+      <label for="userId">ID Details:</label>
+      <input type="text" id="userId" name="userId" placeholder="Enter ID details..." required>
+
+      <label for="idType">ID Types:</label>
+      <input type="text" id="idType" name="idType" placeholder="Enter ID types..." required>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter name..." required>
+
+      <label for="contactNumber">Contact Number:</label>
+      <input type="tel" id="contactNumber" name="contactNumber" placeholder="Enter contact number..." required>
+
+      <label for="vaccineName">Vaccine Name:</label>
+      <select id="vaccineName" name="vaccineName" required>
+        <option value="">Select a vaccine...</option>
+        <option value="Covaxin">Covaxin</option>
+        <option value="Covishield">Covishield</option>
+        <option value="Sputnik">Sputnik</option>
+      </select>
+
+      <input type="submit" value="Book Slot">
+    </form>
+  </div>
+</body>
+</html>
