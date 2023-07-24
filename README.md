@@ -10,7 +10,7 @@
 - At the end show information of vaccinated members.
 - And last storing the all members data to the database.
 
-## Used Technologies:
+## Used Technologies:-
 - Java
 - Spring Boot
 - MySQL
@@ -19,4 +19,8 @@
 - Thymeleaf
 - Git
 
- ##  Registration Form Vaccination Project project can be found in (https://github.com/ManoramaShewale/VaccinationProject/tree/main)
+ ##  Registration Form Vaccination Project project can be found in:-
+ 
+ https://github.com/ManoramaShewale/VaccinationProject/tree/main
+
+ 
